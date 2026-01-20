@@ -3,8 +3,11 @@ export const primitive = {
     blue: {
       50: '#eff6ff',
       100: '#dbeafe',
+      400: '#60a5fa',
       500: '#3b82f6',
       600: '#2563eb',
+      700: '#1d4ed8',
+      800: '#1e40af',
       900: '#1e3a8a',
     },
     gray: {
@@ -39,5 +42,24 @@ export const primitive = {
     md: '0.375rem',
     lg: '0.5rem',
     full: '9999px',
+  },
+  lineHeight: {
+    none: '1',
+    tight: '1.25',
+    snug: '1.375',
+    normal: '1.5',
+    relaxed: '1.625',
+    loose: '2',
+  },
+  fontWeight: {
+    thin: '100',
+    extralight: '200',
+    light: '300',
+    normal: '400',
+    medium: '500',
+    semibold: '600',
+    bold: '700',
+    extrabold: '800',
+    black: '900',
   },
 }
