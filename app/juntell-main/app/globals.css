@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+/* Tailwind v4 테마 설정 */
+@theme {
+  --font-family-sans: var(--font-pretendard), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-sans: var(--font-pretendard), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+  /* 브레이크포인트 설정 */
+  --breakpoint-mobile: 360px;
+  --breakpoint-tablet: 540px;
+  --breakpoint-lg: 800px;
+  --breakpoint-desktop: 1440px;
+
+  --text-display-1: 64px;
+  --text-display-2: 52px;
+  --text-display-3: 48px;
+
+  --text-title-1: 44px;
+  --text-title-2: 36px;
+  --text-title-3: 28px;
+  --text-title-4: 20px;
+
+  --text-body-1: 19px;
+  --text-body-2: 17px;
+  --text-body-3: 15px;
+  --text-body-4: 14px;
+  --text-body-5: 13px;
+
+  --text-caption-1: 12px;
+  --text-caption-2: 11px;
+
+  --leading-display-1: 1.4;
+  --leading-display-2: 1.4;
+  --leading-title-1: 1.4;
+  --leading-title-2: 1.4;
+  --leading-title-3: 1.4;
+  --leading-title-4: 1.44;
+  --leading-body-1: 1.5;
+  --leading-body-2: 1.5;
+  --leading-body-3: 1.5;
+  --leading-caption-1: 1.4;
+  --leading-caption-2: 1.4;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: -0.01em;
+  --tracking-wide: 0em;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --spacing-2xs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md: 8px;
+  --spacing-lg: 10px;
+  --spacing-xl: 12px;
+  --spacing-2xl: 14px;
+
+  --color-primary: #18A0FB;
+  --color-primary-500: #18A0FB;
+  --color-primary-600: #3C83EC;
+  --color-primary-700: #0B74D1;
+  --color-primary-800: #085AA7;
+  --color-primary-900: #063D78;
+
+  --color-secondary-700: #005CA8;
+  --color-secondary-600: #0084D0;
+  --color-secondary-400: #2FADFF;
+  --color-secondary-300: #77C9FF;
+  --color-secondary-200: #B7E0FF;
+  --color-secondary-100: #DFEFFF;
+  --color-secondary-50: #EFF8FF;
+
+  --color-label-900: #0D0E0E;
+  --color-label-800: #32373F;
+  --color-label-700: #6E747E;
+  --color-label-600: #9CA3AF;
+  --color-label-500: #9CA3AF;
+  --color-label-100: #F9FAFB;
+
+  --color-background-default: #FFFFFF;
+  --color-background-alternative: #F5F6FA;
+  --color-background-light: #F9FAFB;
+  --color-background-900: #000000;
+
+  --color-white: #FDFDFD;
+
+  --color-line-800: #111827;
+  --color-line-400: #DFE3E8;
+  --color-line-200: #F3F4F6;
+
+  --color-status-correct: #07CC32;
+  --color-status-error: #FF2D2D;
+  --color-status-caution: #FCBE1D;
+  --color-status-disable: #CBD5E1;
+
+  --color-component-dark: #23272E;
+  --color-component-light: #D1D5DB;
+  --color-component-assistive: #F8FAFC;
+  --color-component-alternative: #F1F5F9;
+
+  --color-material-dimmed: #23272E;
+  --color-material-scroll: #9CA3AF;
+
+  --shadow-normal: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-strong: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-heavy: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* 전역 최소 너비 설정 */
+html {
+  font-family: var(--font-pretendard), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 360px;
+  overflow-x: hidden;
+  font-family: var(--font-pretendard), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+/* 모든 요소에 Pretendard 폰트 강제 적용 */
+* {
+  font-family: inherit;
+}
+
+/* 커스텀 유틸리티 클래스 */
+@layer utilities {
+  /* 자주 사용되는 폰트 크기 */
+  .text-hero {
+    font-size: var(--text-display-1);
+    line-height: var(--leading-display-1);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-section-title {
+    font-size: var(--text-title-1);
+    line-height: var(--leading-title-1);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-card-title {
+    font-size: var(--text-title-3);
+    line-height: var(--leading-title-3);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-paragraph {
+    font-size: var(--text-body-2);
+    line-height: var(--leading-body-2);
+  }
+
+  /* 섹션 간격 */
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: 540px) {
+    .section-padding {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .section-padding {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+
+  /* 컨테이너 */
+  .container-custom {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 540px) {
+    .container-custom {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+}

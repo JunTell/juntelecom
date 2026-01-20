@@ -1,0 +1,472 @@
+{
+  "Home": {
+    "Hero": {
+      "title_1": "Mobile Plans in Korea,",
+      "title_highlight": "Postpaid Available for Foreigners",
+      "desc": "No complex paperwork. Just your ARC, and you can get the same postpaid plans as locals."
+    },
+    "Eligibility": {
+      "badge": "Eligibility Check",
+      "title": "Plan Calculator for Foreigners",
+      "desc": "Tell us your Visa type and duration. We check eligibility and installment limits in 10 seconds."
+    },
+    "Features": {
+      "feat1_title": "No Prepaid Needed",
+      "feat1_desc": "Switch to a continuous postpaid plan instead of prepaid ones that cut off data.",
+      "feat2_title": "Installments Available",
+      "feat2_desc": "Pay for the latest devices in installments depending on your visa conditions.",
+      "feat3_title": "Multi-language Support",
+      "feat3_desc": "No Korean? No problem. Professional agents are here to help."
+    }
+  },
+  "Checker": {
+    "Steps": {
+      "arc": "ARC",
+      "visa": "Visa",
+      "duration": "Duration",
+      "device": "Device"
+    },
+    "ARC": {
+      "title": "Do you have an<br/>Alien Registration Card?",
+      "desc": "Physical ARC is required for check.",
+      "yes": "Yes, I have",
+      "no": "No"
+    },
+    "Visa": {
+      "title": "Select Visa Type",
+      "instruction": "Search for a visa code or select a category.",
+      "placeholder": "Ex: E7, D2, Student...",
+      "Categories": {
+        "all": "All",
+        "student": "🎓 Student",
+        "work": "💼 Work",
+        "resident": "🏠 Resident",
+        "official": "🤝 Official",
+        "other": "Other"
+      },
+      "no_result": "No results found"
+    },
+    "Duration": {
+      "title": "Remaining Stay Duration?",
+      "options": {
+        "short": "Less than 6 months",
+        "medium": "6 months ~ 1 year",
+        "long": "More than 1 year"
+      }
+    },
+    "Device": {
+      "title": "Select Device Option",
+      "desc": "We find the best plan for you.",
+      "Opt1": {
+        "title": "New Flagship Phone",
+        "desc": "iPhone 16, Galaxy S25, etc."
+      },
+      "Opt2": {
+        "title": "Budget Phone",
+        "desc": "Affordable price, good specs"
+      },
+      "Opt3": {
+        "title": "SIM Only (BYOD)",
+        "desc": "Use your own phone"
+      }
+    },
+    "Result": {
+      "possible": "Available",
+      "impossible": "Unavailable",
+      "title_suffix": "Result",
+      "plan_label": "Selected Option",
+      "plan_sim": "SIM Only Plan",
+      "plan_device": "Device Purchase",
+      "installment_label": "Installment",
+      "installment_ok": "Allowed (OK)",
+      "installment_no": "Not Allowed (NO)",
+      "cta_kakao": "Chat on KakaoTalk",
+      "reset": "Start Over"
+    },
+    "Fail": {
+      "title": "Check Unavailable",
+      "desc": "Valid ARC is required<br/>for accurate check.",
+      "retry": "Go Back"
+    },
+    "PhoneList": {
+      "title": "Select a Phone Model",
+      "desc": "Select a model to view details."
+    },
+    "ChatBot": {
+      "select_phone": "Select Phone Model"
+    }
+  },
+  "Process": {
+    "title": "<span class=\"text-primary\">Postpaid Activation,</span> Process Flow",
+    "step1_title": "Check ARC Validity",
+    "step1_desc": "Verify Visa Type & Expiry\nCheck Postpaid Eligibility",
+    "step2_title": "Device & Plan Consult",
+    "step2_desc": "Guide on Model / Capacity\nRecommend Plans for Foreigners",
+    "step3_title": "Activation Complete",
+    "step3_desc": "Purchase Device\nPostpaid Plan Activated",
+    "badge1": "No Prepaid\nSIMs",
+    "badge2": "100% Legal\nProcess",
+    "badge3": "Official\nPartner"
+  },
+  "Target": {
+    "title": "Recommended For\nThese People",
+    "check1": "Foreigners who already have an ARC",
+    "check2": "Who want to buy a phone in Korea",
+    "check3": "Who want Postpaid (Not Prepaid)",
+    "check4": "Want New/Change Device without porting",
+    "footer": "We only guide cases that are legally possible."
+  },
+  "WhyUs": {
+    "title": "Why Choose Us?",
+    "check1": "Expert in Foreigner Postpaid Plans",
+    "check2": "One-stop Device Purchase",
+    "check3": "Pre-check for Impossible Cases",
+    "check4": "No Forced Add-on Services",
+    "check5": "Official Carrier Partner",
+    "footer": "We prioritize safety and\nsuccessful activation over price."
+  },
+  "Form": {
+    "title": "Application",
+    "subtitle": "Please enter your info for counseling",
+    "Steps": {
+      "name": "Name",
+      "phone": "Phone",
+      "carrier": "Carrier",
+      "region": "Region",
+      "device": "Device"
+    },
+    "Name": {
+      "label": "What is your name?",
+      "placeholder": "John Doe"
+    },
+    "Phone": {
+      "label": "Your phone number?",
+      "placeholder": "010-1234-5678",
+      "error": "Invalid phone number format"
+    },
+    "Carrier": {
+      "label": "Current Carrier?",
+      "options": {
+        "KT": "KT",
+        "SKT": "SKT",
+        "LG": "LG U+",
+        "MVNO": "MVNO",
+        "NONE": "None"
+      }
+    },
+    "Region": {
+      "label": "Where do you live?",
+      "toggle_manual": "Type Manually",
+      "toggle_select": "Select List",
+      "placeholder_manual": "Ex: Seoul Gangnam",
+      "placeholder_select": "Select Region"
+    },
+    "Device": {
+      "label": "Preferred Device?",
+      "placeholder": "Ex: iPhone 16, Galaxy S25",
+      "hint": "We can recommend one if left blank."
+    },
+    "Buttons": {
+      "next": "Next",
+      "submit": "Submit"
+    },
+    "Toast": {
+      "success": "Application submitted successfully!"
+    }
+  },
+  "ServiceGuide": {
+    "label": "KT Official Online Store",
+    "title": "Buy a phone in Korea,\nForeigners can use\npostpaid plans from the start",
+    "sub_arc": "Based on Alien Registration Card (ARC)",
+    "sub_benefit": "Phone purchase + Postpaid plan at once",
+    "btn_check": "Check Eligibility",
+    "btn_consult": "Consultation for Foreigners"
+  },
+  "Phone": {
+    "Common": {
+      "loading": "Loading...",
+      "won": "KRW",
+      "man": "0K",
+      "default_color": "Default Color",
+      "model_loading": "Model loading"
+    },
+    "Page": {
+      "select_plan_button": "Select plan and check benefits",
+      "submit_application": "Fill out application"
+    },
+    "Order": {
+      "default_country": "Republic of Korea",
+      "join_type_change": "Device Change",
+      "join_type_mnp": "Number Portability",
+      "contract_24": "24 months",
+      "telecom_kt": "KT",
+      "funnel_asamo": "asamo",
+      "installment_price": "Installment Principal",
+      "release_price": "Release Price",
+      "monthly_price": "Monthly",
+      "default_requirements": "Device change with existing plan",
+      "confirm_info_title": "Please confirm\nthe information below",
+      "form_alert": "Please enter both your name and contact number."
+    },
+    "Carousel": {
+      "no_image": "No image available"
+    },
+    "OptionSelector": {
+      "title": "Select Options",
+      "sold_out": "Sold Out"
+    },
+    "StickyBar": {
+      "final_price_label": "Final Price",
+      "submit_button": "Submit Application"
+    },
+    "PlanSelector": {
+      "discount_method_title": "Please select discount method",
+      "device_discount": "Device Discount",
+      "plan_discount": "Plan Discount",
+      "device_discount_info": "Receive both KT disclosure subsidy and KT Market Global additional discount",
+      "plan_discount_info": "Receive both monthly plan discount (25%) and KT Market Global additional discount",
+      "select_plan_title": "Please select a plan",
+      "discount_badge": "25% OFF",
+      "data_on_video": "Data ON Video",
+      "simple_110gb": "5G Simple 110GB",
+      "discount_suffix": "Discount",
+      "release_price": "Release Price",
+      "disclosure_subsidy": "Disclosure Subsidy (KT)",
+      "market_subsidy": "KT Market Global Additional Subsidy",
+      "special_discount": "KT Market Global Year-End Special (MNP)",
+      "final_purchase_price": "Final Purchase Price",
+      "plan_info_title": "Plan Information",
+      "plan_name": "Name",
+      "plan_data": "Data",
+      "plan_calls": "Calls",
+      "plan_texts": "Texts",
+      "monthly_fee": "Monthly Fee",
+      "data_on_video_notice": "Data ON Video plan is currently unavailable for new subscriptions. Existing subscribers can keep it, and new subscribers will be enrolled in Data ON Video Plus."
+    },
+    "OrderForm": {
+      "subscriber_info_input": "Enter Subscriber Information",
+      "name_label": "Name",
+      "dob_label": "Date of Birth (6 digits)",
+      "name_error": "Please enter in English only",
+      "dob_placeholder": "Ex: 900101",
+      "dob_error": "Please enter 6 digits for date of birth",
+      "phone_label": "Phone Number (numbers only)",
+      "phone_placeholder": "01012345678",
+      "phone_error": "Please enter 11 digits for phone number",
+      "country_label": "Country",
+      "requirements_label": "Requirements (Optional)",
+      "requirements_placeholder": "Ex: I want to keep my existing SIM card",
+      "save_button": "Save",
+      "subscriber_info_title": "Subscriber Information",
+      "date_of_birth": "Date of Birth",
+      "phone_number": "Phone Number",
+      "country": "Country",
+      "requirements": "Requirements",
+      "edit_button": "Edit",
+      "input_button": "Input",
+      "activation_info_title": "Activation Information",
+      "discount_type": "Discount Type",
+      "contract": "Contract",
+      "join_type": "Join Type",
+      "plan_info_title": "Plan Information",
+      "plan_name": "Name",
+      "plan_data": "Data",
+      "monthly_amount": "Monthly Amount",
+      "plan_maintenance_warning_title": "Please maintain the plan for at least 6 months.",
+      "plan_maintenance_warning_desc": "After 6 months, you can change to LTE/5G plan of 47,000 won or more.",
+      "application_success_title": "Your application has been successfully submitted.",
+      "application_success_desc": "We will help you with the activation process through a follow-up call.",
+      "confirm_button": "Confirmed",
+      "terms_title": "Personal Information Collection and Use Agreement (Required)",
+      "terms_alert": "Please agree to the required terms.",
+      "processing_button": "Processing...",
+      "next_button": "Next",
+      "discount_type_plan": "Installment Agreement (Plan Discount)",
+      "discount_type_device": "Disclosure Subsidy (Device Discount)",
+      "terms_description": "1. [Required] Personal Information Collection and Use Agreement<br />Your personal information will be collected, used, and processed by KT Market with your consent.<br />",
+      "terms_purpose": "Collection Purpose",
+      "terms_purpose_value": "Product application, consultation, activation, delivery",
+      "terms_retention": "Retention Period",
+      "terms_retention_value": "Destroyed after 6 months",
+      "plan_69_video_name": "Legacy Data ON Video",
+      "plan_69_video_description": "Data 100GB + 5Mbps after use",
+      "plan_69_simple_name": "5G Simple 110GB",
+      "plan_69_simple_description": "Data 110GB + 5Mbps after use"
+    },
+    "Result": {
+      "application_complete_title": "Application\nCompleted.",
+      "go_home_button": "Go to Home",
+      "success_animation_text": "Application completed successfully!"
+    },
+    "GongguDealCard": {
+      "original_price": "Original Price",
+      "global_special": "Global Special",
+      "total_discount": "Total",
+      "discount_suffix": "Discount",
+      "discount_source": "(Common+KT Market Global)",
+      "plan_discount_desc": "+ 25% Plan Discount"
+    },
+    "ModelList": {
+      "section_title": "Today's Deals",
+      "current_carrier": "Current Carrier",
+      "using_carrier": "In Use",
+      "select_carrier_title": "Please select a carrier",
+      "select_carrier_desc": "Select your current carrier",
+      "kt_device_change_desc": "You can change your device while keeping your KT number",
+      "mnp_desc": "You can switch from {carrier} to KT while keeping your number",
+      "select_model_title": "Please select a model",
+      "subsidy_info": "Receive both disclosure subsidy and KT Market Global subsidy",
+      "loading": "Loading information...",
+      "error": "Failed to load deal information.",
+      "no_models": "No models found."
+    },
+    "Plans": {
+      "plan_59_name": "5G Welcome 5",
+      "plan_59_desc": "25GB + 5Mbps after use",
+      "plan_69_name": "Data ON Video",
+      "plan_69_desc": "Data 100GB + 5Mbps",
+      "plan_69_v_name": "5G Simple 110GB",
+      "plan_69_v_desc": "Data 110GB + 5Mbps",
+      "plan_90_name": "Choice Basic",
+      "plan_90_desc": "Truly Unlimited",
+      "plan_90_v_name": "Youtube Choice Basic",
+      "plan_90_v_desc": "Truly Unlimited",
+      "unlimited": "Unlimited",
+      "included": "Included",
+      "minutes": "min",
+      "messages": "msgs"
+    },
+    "Colors": {
+      "lavender": "Lavender",
+      "sage": "Sage",
+      "blue": "Mist Blue",
+      "white": "White",
+      "black": "Black",
+      "natural_titanium": "Natural Titanium",
+      "black_titanium": "Black Titanium",
+      "white_titanium": "White Titanium",
+      "blue_titanium": "Blue Titanium",
+      "desert_titanium": "Desert Titanium",
+      "teal": "Teal",
+      "pink": "Pink",
+      "ultramarine": "Ultramarine",
+      "gold": "Gold",
+      "silver": "Silver",
+      "space_black": "Space Black",
+      "mist_blue": "Mist Blue",
+      "cosmic_orange": "Cosmic Orange",
+      "sky_blue": "Sky Blue",
+      "light_gold": "Light Gold",
+      "cloud_white": "Cloud White",
+      "ice_blue": "Ice Blue",
+      "mint": "Mint",
+      "navy": "Navy",
+      "light_green": "Light Green",
+      "deep_blue": "Deep Blue"
+    }
+  },
+  "ChatBot": {
+    "welcome_message": "Hello! Welcome to Global KT Market.\nPlease select what you're curious about. 👇",
+    "header_title": "KT Market Support",
+    "response_time": "Avg. 30 min response",
+    "kakao_chat": "KakaoTalk",
+    "kakao_name": "KakaoTalk",
+    "global_label": "Global",
+    "whatsapp_name": "WhatsApp",
+    "not_found": "Sorry, we couldn't find relevant information. 😅\nTry the chips below or ask about 'plans', 'subsidies', etc.",
+    "input_placeholder": "Type your question here...",
+    "faq_gongsi_q": "Disclosure Subsidy vs Plan Discount",
+    "faq_gongsi_a": "💡 [Disclosure Subsidy vs Plan Discount]\n\n• Disclosure Subsidy: Get device discount upfront. Need to maintain high-tier plan for 6 months. Better for expensive devices.\n\n• Plan Discount: Get 25% off monthly fee. Much better for latest iPhones with low disclosure subsidies.",
+    "faq_change_q": "When Device Change is Better",
+    "faq_change_a": "💡 [Recommended for Device Change]\n\n1. Family Plan: If you're getting big discounts from family bundling.\n2. Long-term Customer: If you value membership points and benefits.\n3. Internet/TV Bundle: If your home internet is KT, stay with KT!",
+    "faq_simfree_q": "When Carrier is Cheaper than Unlocked",
+    "faq_simfree_a": "💡 [When Carrier Purchase is Cheaper]\n\n• Extra Rebates: When retailers offer large cash-back (30-50K won).\n• Card Benefits: When you can meet monthly spending requirements for discounts.\n• Bundle Discounts: When using family plan with half-price benefits.",
+    "faq_fraud_q": "Watch Out When Buying Phones",
+    "faq_fraud_a": "🚨 [Beware of These Tricks!]\n\n1. Return Conditions: You must return the device after 2 years to waive remaining installments.\n2. 48-Month Installment: Monthly payment looks cheap, but you pay interest for 4 years.\n3. Card Discount Tricks: Discount requires card usage, but presented as device price reduction.",
+    "faq_holy_q": "Official Store vs 'Holy Land' Shops",
+    "faq_holy_a": "🏢 [Official vs Holy Land]\n\n• Official Store: Full price, high trust, freebies (case, etc.)\n• Holy Land: Very cheap by giving sales commission to customers as cash-back. Requires visiting shops and prefers cash payment.",
+    "select_phone": "Select Phone Model"
+  },
+  "Main": {
+    "Notice": {
+      "section_title": "Notice",
+      "common_title": "Common notices",
+      "common_content": "- These benefits and notices are based on the assumption that your current carrier is SKT/LGU+/MVNO. If you are currently using KT, please refer to the agency's guidance after completing the reception.\n- Due to operational circumstances, shortages of device, capacity, or color may occur.\n- For Apple products such as iPhones, exchange eligibility depends on the activation date, and all exchanges are handled only at Apple service centers, not at the agency. (Within 10 days of activation: Refund or new product exchange possible. 11~30 days after activation: Refund not possible, exchange possible. After 31 days: Partial repair or refurbished product exchange only.)\n- After receiving the new phone, you must insert the USIM after applying for activation.\n- A minimum of 5 calls and 10 minutes of talk time per month must be made after activation.",
+      "kt_subsidy_title": "Global KT Market Exclusive Subsidy Guide",
+      "kt_subsidy_content": "- When subscribing to a 5G plan (LTE unavailable for the first 6 months) such as 5G Simple 30GB or higher, Global KT Market exclusive subsidy is provided, which may vary depending on the plan you subscribe to.\n- Global KT Market exclusive subsidy is provided on the condition that the activated plan is maintained for 6 months (184 days).\n- If you change plan/cancel/change device/change name/suspend within 6 months (184 days) of activation, you must return the full amount of the Global KT Market exclusive subsidy.\n- You cannot resell the device or insert another person's USIM within 6 months (180 days).\n- You can freely move to another carrier after 24 months from the activation date. However, depending on the remaining contract period, a penalty for the Global KT Market exclusive subsidy and plan discount may occur.\n- Cancellation within 6 months (184 days): Full return of Global KT Market exclusive subsidy, After 6 months (184 days): Partial return according to the remaining contract period",
+      "public_subsidy_title": "Public Subsidy Course Guide",
+      "public_subsidy_content": "• If you received the public subsidy benefit, you can join the 25% selective contract discount after 24 months.\n\n• Please maintain the plan selected at the time of activation for 6 months (184 days) after device activation. If this period is not kept, the full amount of the public subsidy received may be charged as a penalty.\n\n• After 6 months, you can freely change your plan, and the public subsidy you already received remains the same.\n\n• However, if the changed plan is less than 50,000 won per month (less than 47,000 won for those under 19), a penalty may occur if the contract period remains. The penalty may vary depending on the plan selected at activation, contract conditions, and discount type.\n\n• Even after 6 months, you cannot change to the following plans:\n1. No-contract plan 2. Yogo/Direct plan 3. MVNO plan\n\n• The public subsidy benefit applies based on a 24-month contract. The suspension period is not included in the contract period, and if canceled mid-term within the contract period, a penalty for the remaining period may be charged.\n\n• If you have used it for more than 18 months after activation with a 24-month contract, the public subsidy penalty for device change is deferred and not charged. (Penalty deferred for device change after 18 months) However, the deferral applies only if maintained until the contract period (24 months).",
+      "selective_contract_title": "Selective Contract Discount Guide",
+      "selective_contract_content": "- Selective contract (plan discount) is a method of receiving a 25% discount on monthly communication fees instead of a public subsidy (device discount), and a total of 24-month contract applies.\n- You can freely change your plan anytime after 6 months (184 days) of activation, and you must promise to maintain a plan of at least 47,000 won. If you lower it below 47,000 won, a penalty may occur.\n- Make a promise to use KT as your carrier for 24 months instead of receiving a 25% monthly fee discount. If you change carriers before 24 months pass, a penalty may occur.\n- The suspension period is not included in the contract period, and the contract may be extended by the suspension period.\n- Even after 6 months, you cannot change to KT Yogo or Direct plans, and changing to a KT network MVNO plan may result in a penalty.\n- Public subsidy benefits and selective contract benefits do not apply simultaneously.",
+      "payment_title": "Payment and Installment Guide",
+      "payment_content": "• For carrier phones, device delivery starts when you fill out the KT application form even if you do not pay for the device. If the application is successfully received and there are no issues with activation, we will send the device first after confirmation.\n\n• If you purchase a phone in installments, the device price and communication fee will be billed together every month. A 5.9% installment interest calculated by the equal principal and interest method is added here.\n\n• If you are curious about the installment interest, search for 'loan calculator' on Naver and enter the discounted device price and the desired number of installment months. You can easily check the total installment interest.\n\n• You can pay the installment amount at any time even after activation with carrier installment. Full payment as well as partial payment is possible. Pay comfortably when you want.\n\n• If you wish to pay in full, please pay via My KT (App), 114 (Customer Center), or a nearby KT store within the month of activation using a payment method (Cash/Card/Naver Pay/Kakao Pay).\n\n• The number of interest-free installment months for credit cards is the same as the number of interest-free installment months provided by card companies at general merchants. Interest-free installments are possible for 2~5 months, and up to 10~12 months depending on the card company, so please contact your card company for detailed conditions.\n\n• You can check payment details and receipts at any time on the My KT app or KT homepage for full payment.",
+      "cancellation_title": "Cancellation and Exchange/Refund Guide",
+      "cancellation_content": "[ Order Cancellation ]\n• Order cancellation is possible at any time before delivery preparation.\n• Once you complete the electronic signature on the KT application form, the contract is established, and withdrawal is not possible for any reason thereafter.\n• It may be automatically canceled due to system circumstances, lack of stock, change in subsidy, etc., and in this case, we will inform you separately.\n\n[ Activation Cancellation ]\n• Cancellation is not possible after activation even if it is unopened.\n• However, in case of device defect or call quality defect, cancellation is possible within 14 days from the activation date (including delivery period).\n• Plans that cannot be re-subscribed upon cancellation of activation are difficult to restore, and incurred charges are calculated on a pro-rata basis.\n\n\n[ Exchange/Refund Criteria ]\n• In case of device defect or wrong delivery, exchange/refund is possible within 7 days based on the computerized activation date.\n\n• Apple products follow Apple policy.\n1. Within 7 days of activation: Refund or new product exchange possible\n2. 7~30 days: Refund not possible, new product exchange only\n3. After 31 days: Refund and exchange impossible, refurbishment or repair only\n\n• Cases where exchange/refund is not possible\n1. If products and components are missing or damaged\n2. If the value of the product has significantly decreased due to use or consumption\n3. If the value has decreased to the extent that resale is difficult due to the passage of time\n4. If the packaging of a product that can be copied is damaged\n5. If a custom-made product has already been produced\n\n• For Samsung devices, you must receive a defect confirmation from the manufacturer's A/S center to be eligible for exchange, and you must return the defect confirmation and the phone normally to Global KT Market.\n\n• Return/Exchange Method\n1. All components (body, box, etc.) must be included in their original state.\n2. Returns must be sent via Post Office Parcel, and additional costs may occur when using other couriers.\n3. If you want an exchange/return, please contact 1522-6562 within 7 days of receipt.",
+      "application_guide_title": "Guide for Filling Out KT Application Form",
+      "application_guide_content": "Application form error!\n- If it doesn't move to the next screen, it might be due to browser popup blocking.\n- Please disable popup blocking or try again with Chrome/Edge/Naver App.\n- If it still doesn't work, we will help you with phone application (1522-6562).\n\nIdentity Verification Preparation\n- Identity verification is essential for users of other carriers.\n- Recommendation: PASS certificate or Naver certificate\n- Please install the PASS app and issue a certificate before applying.\n(Search PASS in App Store → Select Carrier → Enter Name/Resident Number → Issue Certificate)\n\nContract Complete with Electronic Signature!\n- If you sign electronically with mobile phone authentication, PASS, Naver certificate, etc.\n- It has the same legal effect as an offline contract.\n- Withdrawal or change is not possible after application, so please fill it out carefully.\n\nCheck Application Type\n- Existing KT Customer → Device Change\n- SK/LG/MVNO Customer → Number Portability\n- New subscription is only available for teenagers under 19\n\n5G Coverage\n- It is an agreement to use a 5G plan. Please click the agree button after entering your address.\n\nUSIM and Plan Guide\n- Existing KT customers can reuse USIM\n- Other carrier customers incur a one-time fee of 7,700 won for USIM or 2,750 won for eSIM installation\n\nDon't worry if discount items are not shown on the application form\n- Global KT Market subsidy, combination discount, and welfare discount may not be displayed on the application form.\n- It is automatically applied based on the Global KT Market price list at the time of activation.\n- Combination/welfare discount rates may vary depending on plan changes.\n\nInsurance subscription is possible even after activation\n- You can subscribe within 60 days after activation in the My KT app.\n- Please omit the insurance item when filling out the application form.\n\nChanges are possible only before activation!\n- Application details can be changed until activation.\n- Please inform Global KT Market Customer Center (1522-6562) of any changes.\n- Insurance, plan, discount, delivery address, etc. cannot be changed after activation.\n\nCaution for Duplicate Application!\n- If you fill out the application form more than twice, only the last application form is valid, and the previous ones are automatically canceled.\n- Please be careful as there is a risk of double billing/activation if you verify duplicate orders on other KT sites/stores after applying to Global KT Market.\n\nApplication withdrawal is possible only before filling out the official application form\n- Withdrawal or change is not possible after filling out the official application form."
+    }
+  },
+  "Footer": {
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy",
+    "customer_center": "Support",
+    "company_name": "Juntell Co., Ltd.",
+    "company_name_full": "KT Official Partner | Juntell Co., Ltd.",
+    "ceo_label": "CEO",
+    "ceo_name": "Baek Jae-jun",
+    "business_no_label": "Registration No",
+    "business_no_value": "436-81-00474",
+    "telecom_license_label": "Telecom License",
+    "telecom_license_value": "2023-ChangwonSeongsan-0137",
+    "privacy_officer_label": "Privacy Officer",
+    "privacy_officer_name": "Jung Woo-seung",
+    "address_label": "Address",
+    "address_value": "4F Global KT Market HQ, 12 Madimi-ro 22beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do",
+    "cs_label": "CS Center",
+    "cs_phone": "02-0000-0000",
+    "email_label": "Email",
+    "email_value": "help@ktmarket.co.kr",
+    "cs_hours": "Hours: Mon-Fri 10:00 ~ 17:00",
+    "tagline": "Foreigner Postpaid Phone Specialist",
+    "partner_support": "Official telecom partner support",
+    "business_info_title": "Global KT Market Business Info",
+    "cert_kt_official": "Online Official Certified",
+    "cert_kait": "Korea Association for ICT Promotion",
+    "policy_privacy": "Privacy Policy",
+    "policy_usage": "Usage History",
+    "policy_notice": "Notice",
+    "policy_company": "Company Intro",
+    "channel_youtube": "Youtube Channel",
+    "channel_kakao": "Kakao Channel"
+  },
+  "Company": {
+    "title": "KT Official Partner Platform, Global KT Market",
+    "description": "Global KT Market is a KT official certified online distribution partner operated by Juntell Co., Ltd.",
+    "intro_1": "Founded in 2012, Juntell Co., Ltd. is a top telecommunications specialist with 14 years of expertise and trust, focusing solely on KT distribution.",
+    "intro_2": "We currently operate 5 direct offline stores and provide customer-centric services encompassing both online and offline channels.",
+    "intro_3": "Our record of 40,000 cumulative customers and 160,000 sales is the result of honest service and transparent customer support. Customers from all over the country continue to revisit and recommend Global KT Market.",
+    "values_title": "Our Values",
+    "value_1": "Global KT Market goes beyond simple distribution. We value explaining complex telecom products at the customer's level and guiding better choices through professional consultation.",
+    "value_2": "All products are genuine, new products shipped through KT's official distribution network. We treat every customer like family, providing honest and in-depth consultation and sales.",
+    "value_3": "We will always remain the most trustworthy telecom platform by your side.",
+    "info_title": "Company Information",
+    "label_company": "Company Name",
+    "value_company": "Juntell Co., Ltd.",
+    "label_established": "Established",
+    "value_established": "August 2012",
+    "label_ceo": "CEO",
+    "value_ceo": "Baek Jae-jun",
+    "label_subscribers": "Subscribers",
+    "value_subscribers": "40,000 (As of 2025)",
+    "label_address": "Address",
+    "value_address": "12, Madimi-ro 22beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do (Sangnam-dong)",
+    "label_business": "Main Business",
+    "value_business": "Wired/Wireless Mobile Product Sales & Service, CS, AS, etc.",
+    "area_title": "Business Areas",
+    "area_offline_title": "Offline Sales",
+    "area_offline_desc": "Wired/Wireless product sales through direct retail stores",
+    "area_online_title": "Online Sales",
+    "area_online_desc": "KT Market NEW Official Home, Online Channel Product Sales",
+    "dates_text": "Announcement Date: Feb 1, 2023 | Effective Date: Feb 1, 2023"
+  }
+}
